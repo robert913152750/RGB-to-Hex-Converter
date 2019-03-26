@@ -1,0 +1,42 @@
+.slider {
+  -webkit-appearance: none;
+  width: 60%;
+  height: 9px;
+  background: #d3d3d3;
+  border-radius: 4px;
+  outline: none;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.color-sign {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.output {
+  width: 40px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.sixteen {
+  width: 95%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+
+body {
+  background: #000000;
+}
